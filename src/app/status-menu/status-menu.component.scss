@@ -6,6 +6,16 @@
     height: 200px;
 }
 
+.button_group button[color="warn"] {
+    background-color: #990012;
+    color: #fff;
+  }
+  
+  .button_group button[color="disabled"] {
+    background-color: #008579;
+    color: #fff;
+  }
+
 .button_group{
     display: flex;
     justify-content: right;
