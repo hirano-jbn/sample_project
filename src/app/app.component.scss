@@ -1,14 +1,6 @@
-mat-sidenav-container{
-    box-sizing: border-box;
-    height: calc(100vh - 64px); //ウインドウの高さからヘッダー分を引いてる
-    // width: 20%;
-}
-mat-sidenav{
-    width: 250px;
-}
-mat-list-item{
-    font-size: 18px;
-    margin-top:10px;
+.container{
+    margin-left:260px;
+    // left: calc(100vh - 64px); //ウインドウの高さからヘッダー分を引いてる
 }
 
 .active{
@@ -21,4 +13,9 @@ mat-list-item{
 
 .flexbox{
     display: flex;
+}
+
+.main_block{
+    width: 65%;
+    margin-top:55px
 }

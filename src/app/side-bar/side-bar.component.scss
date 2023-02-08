@@ -1,0 +1,20 @@
+mat-sidenav-container{
+    box-sizing: border-box;
+    height: calc(100vh - 64px); //ウインドウの高さからヘッダー分を引いてる
+}
+
+mat-sidenav{
+    width: 250px;
+}
+mat-list-item{
+    font-size: 18px;
+    margin-top:10px;
+}
+
+.active{
+    background: rgb(0,0,0,0.1);
+}
+.toolbar{
+    position: relative;
+    z-index: 6;
+}

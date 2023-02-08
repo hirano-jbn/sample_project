@@ -27,6 +27,7 @@ import { ExperimentplanComponent } from './experimentplan/experimentplan.compone
 import { PlanReportComponent } from './plan-report/plan-report.component';
 import { ResultReportComponent } from './result-report/result-report.component';
 import { MenuComponent } from './menu/menu.component';
+import { StatusMenuComponent } from './status-menu/status-menu.component';
 
 
 @NgModule({
@@ -43,6 +44,7 @@ import { MenuComponent } from './menu/menu.component';
     PlanReportComponent,
     ResultReportComponent,
     MenuComponent,
+    StatusMenuComponent,
   ],
   imports: [
     BrowserModule,

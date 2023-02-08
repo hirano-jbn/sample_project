@@ -1,26 +1,25 @@
-<p>
-    計画実績記録
-</p>
+<!-- ↓ルーティング完了したら消す -->
+<p>計画実績記録</p>
+
 <div>    
     <mat-card>
         <mat-card-content>
             <div>
-                <label><input type="checkbox">削除済みを表示</label>
+                <input type="checkbox">削除済みを表示
             </div>
-            <br>
-            <div>
-                <button mat-button>
-                <mat-card>
-                <mat-card-content>
-                    <p>新規追加+</p>
-                </mat-card-content>
-                </mat-card>
-                </button>
+            <div class="edit_button">
+                <button mat-raised-button>新規追加+</button>
             </div>
-            <br>
+            <div class="search_block">
+                <form>
+                    <mat-form-field>
+                        <input type="text" matInput matType="text" placeholder="検索条件">
+                    </mat-form-field>
+                </form>
+            </div>
+            <div class="border_area">
+                <p>> 計画実績記録A</p>
+            </div>
         </mat-card-content>
-        <mat-card class="border-area">
-            <p>> 計画実績記録A</p>
-        </mat-card>
     </mat-card>
 </div>

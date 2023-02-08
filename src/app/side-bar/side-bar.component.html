@@ -1,1 +1,12 @@
-<p>side-bar works!</p>
+<mat-sidenav mode="side" opened="true" class="mat-elevation-z4"> <!-- modeでサイドバーに指定、openedで表示状態設定 -->
+    <mat-nav-list>
+        <mat-list-item routerLink="/" routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}"><mat-icon>settings</mat-icon>マスタ管理</mat-list-item>
+        <mat-list-item routerLink="/edit" routerLinkActive="active"
+            routerLinkActive="active">実験計画管理</mat-list-item>
+        <mat-list-item>
+            <mat-icon>assignment_turned_in</mat-icon>実験実績管理</mat-list-item>
+        <mat-list-item>
+            その他</mat-list-item>
+        </mat-nav-list>
+</mat-sidenav>

@@ -1,0 +1,29 @@
+.border_area{
+    border-style: solid;
+    border-radius: 0%;
+    border-width:1px;
+    border-color: rgb(136, 131, 131);
+    height: 200px;
+}
+
+.button_group{
+    display: flex;
+    justify-content: right;
+    margin:40px 10px 10px;
+}
+
+button{
+    margin:2px;
+}
+
+.form_group{
+    display: flex;
+    justify-content: right;
+    margin-right:10px;
+}
+
+mat-form-field{
+    margin:2px;
+}
+    
+    
