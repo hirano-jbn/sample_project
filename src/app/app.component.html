@@ -6,6 +6,7 @@
   <app-side-bar></app-side-bar>
   <!-- メインコンテンツ -->
   <div class="container">
+    <p>{{subtitle}}</p>
     <div class="flexbox">
       <!-- サイドバー -->
       <app-menu></app-menu>
@@ -14,7 +15,8 @@
           <!-- 上部のステータスボタンエリア -->
           <app-status-menu></app-status-menu>
           <!-- コンテンツ -->
-          <app-plan-report></app-plan-report>
+          <!-- <app-plan-report></app-plan-report> -->
+          <router-outlet></router-outlet>
         </mat-card>
       </div>
     </div>
