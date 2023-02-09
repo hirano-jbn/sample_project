@@ -1,0 +1,44 @@
+:host{
+    width: 70%;
+    margin-top:30px
+    }
+    
+    .wind-arrow{
+        display: inline-block;
+        transform-origin: center;
+        transition-duration: 500ms;
+        transition-timing-function: ease-in-out;
+        transition-property: transform;
+    }
+    
+    .border-area-top{
+        border-style: solid;
+        border-width:2px;
+        border-color: rgb(136, 131, 131);
+        width:95%;
+        height: 200px;
+        margin:10px
+    }
+    
+    .border-area-bottom{
+        border-style: solid;
+        border-width:2px;
+        border-color: rgb(136, 131, 131);
+        width:95%;
+        height: 450px;
+        margin:10px
+    }
+    
+    button{
+        display: flex;
+        width:100px;
+        margin:2px;
+    }
+    
+    .button_group{
+        display: flex;
+        justify-content: right;
+        margin:5px;
+    }
+    
+    
