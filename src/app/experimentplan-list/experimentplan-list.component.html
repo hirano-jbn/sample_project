@@ -1,1 +1,56 @@
-<p>experimentplan-list works!</p>
+<div>
+    <mat-card>
+    <div>
+        <mat-card class="border-area-top">
+            <div class="button_group">
+                <p>申請中</p>
+                <button mat-raised-button color="warn">申請却下</button>
+                <button mat-raised-button color="warn">却下</button>
+                <button mat-raised-button color="#1B5E20">申請</button>
+                <button mat-raised-button color="warn">承認</button>
+            </div>
+        </mat-card>
+    </div>
+    
+    <div>
+        <mat-card class="border-area-bottom">
+        <div class="container">
+            <h2>{{experiment_planning_id}}</h2>
+            <form >
+                <span>実験計画名</span>
+
+                <div><mat-form-field>
+                    <input type="text" placeholder="">
+                </mat-form-field></div>
+                <span>目的</span>
+                <div><mat-form-field>
+                    <input type="textarea" matInput matType="number" placeholder="">
+                </mat-form-field></div>
+                <span>実験概要</span>
+                <div><mat-form-field>
+                    <input type="textarea" matInput matType="number" placeholder="">
+                </mat-form-field></div>
+                <span>実験責任者</span>
+                <div><mat-form-field>
+                    <input type="text" matInput matType="number" placeholder="">
+                </mat-form-field></div>
+                <span>実験計画開始予定日</span>
+                <div><mat-form-field>
+                    <input type="text" matInput matType="number" placeholder="">
+                </mat-form-field></div>
+                <span>実験計画終了予定日</span>
+                <div><mat-form-field>
+                    <input type="text" matInput matType="number" placeholder="">
+                </mat-form-field></div>
+                <!-- <p>参考文献</p>
+                <div><mat-form-field>
+                    <input type="text" matInput matType="number" placeholder="">
+                </mat-form-field></div> -->
+            </form>
+        </div>
+
+        </mat-card>
+    </div>
+    </mat-card>
+    
+</div>

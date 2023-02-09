@@ -13,6 +13,9 @@ import { MatCardModule } from '@angular/material/card'
 import { MatInputModule } from '@angular/material/input'
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon'
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatTreeModule} from '@angular/material/tree';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -45,6 +48,7 @@ import { StatusMenuComponent } from './status-menu/status-menu.component';
     ResultReportComponent,
     MenuComponent,
     StatusMenuComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -61,7 +65,9 @@ import { StatusMenuComponent } from './status-menu/status-menu.component';
     MatCardModule,
     MatInputModule,
     MatFormFieldModule,
-    MatIconModule
+    MatIconModule,
+    MatExpansionModule,
+    MatTreeModule
   ],
   
   providers: [],
